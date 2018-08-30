@@ -45,6 +45,22 @@ namespace ApexIelts.Controllers
         {
             return View();
         }
+        public ActionResult Albums()
+        {
+            return View();
+        }
+        public ActionResult Gallery()
+        {
+            return View();
+        }
+        public ActionResult Video()
+        {
+            return View();
+        }
+        public ActionResult ContactUs()
+        {
+            return View();
+        }
         // GET: Default/Details/5
         public ActionResult Details(int id)
         {

@@ -787,7 +787,7 @@ body.header-style-3 .shopping-cart-items-count { color: #fff; }
 #featured-title .featured-title-heading-wrap { display: table-cell; text-align: right; vertical-align: middle; width: 50%; }
 #featured-title .featured-title-heading { margin: 0; font-size: 22px; }
 #featured-title #breadcrumbs { display: table-cell; text-align: left; vertical-align: middle; width: 50%; }
-#featured-title .breadcrumb-trail .trail-begin { color: #a9b6c6; font-weight: 500; }
+#featured-title .breadcrumb-trail .trail-begin { color: #000000; font-weight: 500; }
 #featured-title .breadcrumb-trail .trail-begin:hover { color: #38cf69; }
 #featured-title .breadcrumb-trail .trail-begin > span { margin-right: 5px; }
 #featured-title .breadcrumb-trail .trail-end { color: #38cf69; font-weight: 400; }

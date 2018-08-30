@@ -507,7 +507,8 @@
 #project-filter .cbp-filter-item.cbp-filter-item-active span,
 #project-filter .cbp-filter-item.cbp-filter-item-active span:hover { color: #38cf69; }
 
-.project-item .zoom-popup { font-size: 22px; color: #fff; position: absolute; right: 0; top: 0; width: 40px; height: 40px; line-height: 40px; background-color: #38cf69; text-align: center; z-index: 2; opacity: 0; -webkit-transition: all .238s; transition: all .238s; -webkit-transform: translate3d(0,-50%,0); transform: translate3d(0,-50%,0); }
+.project-item .zoom-popup { font-size: 22px; color: #fff; position: absolute; right: 122px;
+    top: 70px; width: 40px; height: 40px; line-height: 40px; background-color: #38cf69; text-align: center; z-index: 2; opacity: 0; -webkit-transition: all .238s; transition: all .238s; -webkit-transform: translate3d(0,-50%,0); transform: translate3d(0,-50%,0); }
 .project-item:hover .zoom-popup { opacity: 1; -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); }
 .project-item:hover .effect-default:before { opacity: 0.5; -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); }
 .project-item .zoom-popup:hover { color: #303030; }

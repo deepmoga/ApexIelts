@@ -81,7 +81,7 @@
                         <div class="wrap-inner">
                             <div id="site-logo" class="clearfix">
                                 <div id="site-logo-inner">
-                                    <a href="home.html" title="Contrucst" rel="home" class="main-logo">
+                                    <a href="@Url.Action("Home")" title="Contrucst" rel="home" class="main-logo">
                                         <img src="~/Images/logo.png"     width="215" alt="Logo" data-retina="assets/img/logo@2x.png" data-width="198" data-height="44">
                                     </a>
                                 </div>
@@ -90,8 +90,8 @@
 
                             <nav id="main-nav" class="main-nav">
                                 <ul>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Home</a>
+                                    <li>
+                                        <a href="@Url.Action("Home")">Home</a>
                                        
                                     </li>
                                     <li class="menu-item-has-children">
@@ -123,89 +123,18 @@
                                        
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="#">Shop</a>
+                                        <a href="#">Gallery</a>
                                         <ul>
-                                            <li><a href="page-shop-grid.html">Shop Grid Sidebar</a></li>
-                                            <li><a href="page-shop-detail.html">Shop Detail</a></li>
-                                            <li><a href="page-shop-cart.html">Shop Cart</a></li>
-                                            <li><a href="page-shop-order.html">Check Out</a></li>
-                                            <li><a href="page-shop-order-complete.html">Oder Complete</a></li>
+                                            <li><a href="@Url.Action("Albums")">Gallery</a></li>
+                                            <li><a href="@Url.Action("Video")">Video</a></li>
+                                           
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">News</a>
-                                        <ul>
-                                            <li><a href="page-new-grid.html">New Grid</a></li>
-                                            <li><a href="page-new-grid-sidebar.html">New Grid Sidebar</a></li>
-                                            <li><a href="page-new-list-sidebar.html">New List Sidebar</a></li>
-                                            <li><a href="page-new-single.html">New Single</a></li>
-                                            <li><a href="page-new-single-sidebar.html">New Single Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="page-contact.html">Contact</a></li>
+                                    
+                                    <li><a href="@Url.Action("ContactUs")">Contact</a></li>
                                 </ul>
                             </nav><!-- /#main-nav -->
-                            <div id="header-search">
-                                <a class="header-search-icon" href="#"><span class="fa fa-search"></span></a>
-                                <form role="search" method="get" class="header-search-form" action="#">
-                                    <label class="screen-reader-text">Search for:</label>
-                                    <input type="text" value="" name="s" class="header-search-field" placeholder="Type and hit enter...">
-                                    <button type="submit" class="header-search-submit" title="Search">Search</button>
-                                </form>
-                            </div><!-- /#header-search -->
-                            <div class="nav-top-cart-wrapper">
-                                <a class="nav-cart-trigger" href="#">
-                                    <span class="fa fa-shopping-cart cart-icon">
-                                        <span class="shopping-cart-items-count">2</span>
-                                    </span>
-                                </a>
-                                <div class="nav-shop-cart">
-                                    <div class="widget_shopping_cart_content clearfix">
-                                        <ul class="cart_list product_list_widget ">
-                                            <li class="mini_cart_item">
-                                                <a href="#" class="remove" title="Remove this item">×</a>
-                                                <a href="#" class="product-thumb">
-                                                    <img width="160" height="160" src="assets/img/shop/1.png" alt="image">
-                                                </a>
-                                                <div class="mini-cart-content">
-                                                    <p>
-                                                        <span class="woocommerce-Price-amount amount">
-                                                            <span class="woocommerce-Price-currencySymbol">$</span>20.00<span class="quantity"> x 1</span>
-                                                        </span>
-                                                    </p>
-                                                    <h3 class="product-name"><a href="#">Finance in A Nutshell</a></h3>
-                                                </div>
-                                            </li>
-                                            <li class="mini_cart_item">
-                                                <a href="#" class="remove" title="Remove this item">×</a>
-                                                <a href="#" class="product-thumb">
-                                                    <img width="160" height="160" src="assets/img/shop/2.png" alt="image">
-                                                </a>
-                                                <div class="mini-cart-content">
-                                                    <p>
-                                                        <span class="woocommerce-Price-amount amount">
-                                                            <span class="woocommerce-Price-currencySymbol">$</span>30.00<span class="quantity"> x 1</span>
-                                                        </span>
-                                                    </p>
-
-                                                    <h3 class="product-name"><a href="#">Finance Master</a></h3>
-                                                </div>
-                                            </li>
-                                        </ul><!-- /.product_list_widget -->
-                                        <p class="total clearfix">
-                                            <span>Total:</span>
-                                            <span class="woocommerce-Price-amount amount">
-                                                <span class="woocommerce-Price-currencySymbol">$</span>50.00
-                                            </span>
-                                        </p>
-
-                                        <p class="buttons">
-                                            <a href="#" class="wprt-button btn-small">View Cart</a>
-                                            <a href="#" class="wprt-button btn-small checkout">Checkout</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div><!-- /.nav-top-cart-wrapper -->
+                            
                         </div>
                     </div>
                 </header>
@@ -263,16 +192,10 @@
                                     <div class="spacer clearfix" data-desktop="5" data-mobi="0"></div>
                                 </div>
                                 <div class="widget widget_text">
-                                    <h2 class="widget-title"><span>United States</span></h2>
+                                    <h2 class="widget-title"><span>Follow Us</span></h2>
                                 </div>
-                                <div class="widget widget_text">
-                                    <p class="text-1">001-1234-66666</p>
-                                    <p class="text-2"><a href="info.consultant%40gmail.html">info.consultant@gmail.com</a></p>
-                                </div>
-                                <div class="widget widget_text">
-                                    <p class="text-1">40 Baria Sreet 133/2</p>
-                                    <p class="text-2">NewYork City, US</p>
-                                </div>
+                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fapexieltscentrezira%2F&tabs&width=250&height=180&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=755281824540788" width="250" height="180" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe><!-- /.wprt-carousel-box -->
+
                                 <div class="wprt-spacer" data-desktop="0" data-mobi="25" data-smobi="25"></div>
                             </div>
 
@@ -281,7 +204,7 @@
                                     <div class="spacer clearfix" data-desktop="5" data-mobi="0"></div>
                                 </div>
                                 <div class="widget widget_text">
-                                    <h2 class="widget-title"><span>Canada</span></h2>
+                                    <h2 class="widget-title"><span>We Are here</span></h2>
                                 </div>
                                 <div class="widget widget_text">
                                     <p class="text-1">001-1234-88888</p>

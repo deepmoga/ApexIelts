@@ -352,6 +352,10 @@
     <Content Include="Views\Default\Service.cshtml" />
     <Content Include="Views\Default\ServiceDetails.cshtml" />
     <Content Include="Views\Default\ShiningStars.cshtml" />
+    <Content Include="Views\Default\Albums.cshtml" />
+    <Content Include="Views\Default\Gallery.cshtml" />
+    <Content Include="Views\Default\Video.cshtml" />
+    <Content Include="Views\Default\ContactUs.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
