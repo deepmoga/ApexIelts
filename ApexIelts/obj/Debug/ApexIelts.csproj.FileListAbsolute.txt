@@ -87,6 +87,5 @@ D:\WebSites\Github\ApexIelts\ApexIelts\bin\System.Web.Webpages.Deployment.xml
 D:\WebSites\Github\ApexIelts\ApexIelts\bin\System.Web.Webpages.Razor.xml
 D:\WebSites\Github\ApexIelts\ApexIelts\bin\System.Web.Helpers.xml
 D:\WebSites\Github\ApexIelts\ApexIelts\bin\System.Web.Mvc.xml
-D:\WebSites\Github\ApexIelts\ApexIelts\obj\Debug\ApexIelts.csprojResolveAssemblyReference.cache
 D:\WebSites\Github\ApexIelts\ApexIelts\obj\Debug\ApexIelts.dll
 D:\WebSites\Github\ApexIelts\ApexIelts\obj\Debug\ApexIelts.pdb

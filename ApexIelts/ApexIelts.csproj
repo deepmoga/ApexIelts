@@ -128,7 +128,9 @@
     <Content Include="assets\css\cubeportfolio.css" />
     <Content Include="assets\css\flexslider.css" />
     <Content Include="assets\css\font-awesome.css" />
+    <Content Include="assets\css\form.css" />
     <Content Include="assets\css\magnific-popup.css" />
+    <Content Include="assets\css\material.min.css" />
     <Content Include="assets\css\nouislider.css" />
     <Content Include="assets\css\owl.carousel.css" />
     <Content Include="assets\css\owl.video.play.html" />
@@ -268,11 +270,14 @@
     <Content Include="assets\js\easing.js" />
     <Content Include="assets\js\fitvids.js" />
     <Content Include="assets\js\flexslider.js" />
+    <Content Include="assets\js\form.js" />
     <Content Include="assets\js\gmap3.min.js" />
+    <Content Include="assets\js\jquery-2.2.2.min.js" />
     <Content Include="assets\js\jquery.min.js" />
     <Content Include="assets\js\magnific.popup.min.js" />
     <Content Include="assets\js\main.js" />
     <Content Include="assets\js\matchMedia.js" />
+    <Content Include="assets\js\material.min.js" />
     <Content Include="assets\js\nouislider.js" />
     <Content Include="assets\js\owl.carousel.min.js" />
     <Content Include="assets\js\parallax.js" />
